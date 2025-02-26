@@ -4,16 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Personal Online CV</title>
+
+    <link rel="stylesheet" href="normalize.css" media="screen">
+    <link rel="stylesheet" href="resets.css" media="screen">
+    <link rel="stylesheet" href="styles.css" media="screen">
 </head>
 <body>
     <p>I am header with an unordered list of hyperlinks</p>
     <div class="link">
         <ul> 
-            <li> <a href="" style="color: purple;">I am About link and my href value is #about</a> </li>
-            <li> <a href="" style="color: purple;">I am Education link and my href value is #education</a></li>
-            <li> <a href="" style="color: purple;">I am Skills link and my href value is #skills</a></li>
-            <li> <a href="" style="color: purple;">I am Portfolio link and my href value is #portfolio</a></li>
-            <li> <a href="" style="color: purple;">I am Contact link and my href value is #contact</a></li>
+            <li> <a href="" style="color: purple;">About</a> </li>
+            <li> <a href="" style="color: purple;">Education</a></li>
+            <li> <a href="" style="color: purple;">Skills</a></li>
+            <li> <a href="" style="color: purple;">Portfolio</a></li>
+            <li> <a href="" style="color: purple;">Contact</a></li>
         </ul>
     </div>
       
@@ -24,13 +28,32 @@
         <img class="cat-img" src="images/cat-pic.png" alt="cat image" style="width: 150px;">
         <figcaption> I am an image and I'm all by myself</figcaption>
     </figure>
-    <div>
-        <p>I am a division with id equal to about <br>
-        I am a division with id equal to education <br>
-        I am a division with id equal to skills <br>
-        I am a division with id equal to portfolio <br>
-        I am a division with id equal to contact <br>
-        I am a footer the last section of this page</p>
+    <div class="page-content">
+        <div class="card" id="about">
+                <p class="card-header">About</p>
+                <p class="card-body">Hello! Tell us about yourself.</p>
+        </div>
+        <div class="card" id="education">
+                <p class="card-header">Education</p>
+                <p class="card-body">Tell us about your education</p>
+        </div>
+        <div class="card" id="skills">
+                <p class="card-header">Skills</p>
+                <p class="card-body">Tell us about your IT Skills></p>
+        </div>
+        <div class="card" id="portfolio">
+                <p class="card-header">Portfolio</p>
+                <p class="card-body">Share your previous IT projects</p>
+        </div>
+         <div class="card" id="contact">
+                <p class="card-header">Contact</p>
+                <p class="card-body">Contact  Information</p>
+        </div>
     </div>
 </body>
+<footer>
+    <div>
+         <p>I am a footer the last section of this page</p>
+    </div>
+</footer>
 </html>
